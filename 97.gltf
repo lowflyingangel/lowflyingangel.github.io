@@ -1,0 +1,274 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v3.1.193236683)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 35565,
+            "type": "VEC3",
+            "max": [
+                0.37160226702690127,
+                0.47309282422065737,
+                1.0
+            ],
+            "min": [
+                -0.3716835081577301,
+                -0.46938586235046389,
+                -0.9988047480583191
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 35565,
+            "type": "VEC3",
+            "max": [
+                0.9999995827674866,
+                0.9999990463256836,
+                0.9999736547470093
+            ],
+            "min": [
+                -0.9999938607215881,
+                -1.0,
+                -0.9999797344207764
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 35565,
+            "type": "VEC2",
+            "max": [
+                0.998046875,
+                0.998046875
+            ],
+            "min": [
+                0.0019531280267983677,
+                0.005688011646270752
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 124470,
+            "type": "SCALAR",
+            "max": [
+                35564.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 961,
+            "type": "VEC3",
+            "max": [
+                0.37324175238609316,
+                -0.23932096362113954,
+                0.7404282689094544
+            ],
+            "min": [
+                -0.37323302030563357,
+                -0.42201998829841616,
+                -1.000258445739746
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 961,
+            "type": "VEC3",
+            "max": [
+                0.9992638826370239,
+                0.9992381930351257,
+                0.8812471628189087
+            ],
+            "min": [
+                -0.9993993043899536,
+                -0.9999887347221375,
+                -0.9981254935264587
+            ]
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 961,
+            "type": "VEC2",
+            "max": [
+                0.9581206440925598,
+                0.661346435546875
+            ],
+            "min": [
+                0.11009698361158371,
+                0.117431640625
+            ]
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 4815,
+            "type": "SCALAR",
+            "max": [
+                960.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1427402,
+            "uri": "/Users/lfa/CGI LUV/Models/SNEAKER <3/Nike Air Max 97 Off-White 2.0/97.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 426780,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 426780,
+            "byteLength": 426780,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 853560,
+            "byteLength": 284520,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1138080,
+            "byteLength": 248940,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1387020,
+            "byteLength": 11532,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1398552,
+            "byteLength": 11532,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1410084,
+            "byteLength": 7688,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1417772,
+            "byteLength": 9630,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "97_off_white_2_1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        },
+        {
+            "name": "Mat",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.09600000083446503,
+                    0.5653333067893982,
+                    0.800000011920929,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "97_off_white_2_1",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        },
+        {
+            "name": "97_off_white_2_1",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 7,
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "children": [
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "name": "97_off_white_2_1",
+            "mesh": 0
+        },
+        {
+            "name": "97_off_white_2_1_node",
+            "mesh": 1
+        },
+        {
+            "name": "CINEMA_4D_Editor"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
