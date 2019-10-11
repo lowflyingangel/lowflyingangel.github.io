@@ -1,0 +1,485 @@
+// Material Theming
+// After importing all MDC Web components, apply mixins to theme individual components
+
+.component-section.full-width {
+  width: 70%;
+    position: relative;
+    margin: 0 auto;
+  justify-content: justify;
+}
+
+.mdc-typography--button.description {
+  text-transform: none;
+  font-size: 13px;
+  
+}
+
+
+.mdc-dialog__surface.dialog-blank {
+ text-align:center; 
+  padding-top: 60%;
+  
+}
+
+.mdc-slider:not(.mdc-slider--disabled).mdc-slider.slider-white {
+          color: $mdc-theme-secondary-3;
+
+}
+.mdc-slider:not(.mdc-slider--disabled) .mdc-slider__thumb.slider-white {
+          color: $mdc-theme-secondary-3;
+
+}
+.mdc-slider__focus-ring.slider-white {
+          color: $mdc-theme-secondary-3;
+
+}
+
+.mdc-slider__pin.slider-white {
+      color: $mdc-theme-secondary-3;
+}
+
+.column.col-medium {
+    width: 600px;
+}
+
+.mdc-card.card-solid {
+    max-width: 340px;
+}
+.mdc-card.card-trans {
+    max-width: 340px;
+}
+
+.card-component-wrapper {
+}
+
+.mdc-tab-bar.navbar-round {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 3%;
+  border: 0px solid $mdc-theme-primary-grey;
+  
+}
+
+.demo-card__secondary.card-description  {
+    margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.demo-card__secondary.card-description-white  {
+    margin-bottom: 10px;
+  margin-top: -10px;
+  color: #fff;
+}
+.demo-card.card-trans {
+  position: relative;
+  margin: 0 auto;
+  height: 70%;
+}
+
+#thin-title {
+  font-weight: 300;
+  font-size: 21px;
+}
+
+.card-overlay {
+  background: rgba(0,0,0,0.23);
+  position: absolute;
+  width: 100%;
+  margisn-top:  calc(100% / 2);
+  bottom: 0;
+  left: 0;
+  height: calc(100% / 2);
+  
+}
+.mdc-button__label.btn-centered {
+  position: relative;
+  width: 60px;
+  margin: 0 auto;
+  color: $mdc-theme-primary-blue;
+    font-size: 21px;
+
+}
+
+.demo-card__title.card-alternate {
+    color: white;
+
+}
+
+.text-field-with-input.input-field {
+  background: none;
+}
+
+.mdc-floating-label--float-above.input-above {
+  color: $mdc-theme-primary-dark;
+}
+
+.mdc-floating-label--float-above label {
+    color: $mdc-theme-primary-dark;
+
+}
+
+
+
+.mdc-tab__text-label.tab-grey {
+color: $mdc-theme-primary-grey;
+  text-transform: none;
+     
+  
+  
+}
+
+.mdc-tab.tab-border {
+  border-style: solid;
+  border-color: $mdc-theme-primary-grey;
+  border-width: 0px 0px 0px 1px;
+
+}
+
+.mdc-fab.mdc-fab--extended.chips {
+  background: $mdc-theme-primary-grey;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+
+
+
+.mdc-fab.chips-grey {
+  background: $mdc-theme-primary-grey;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+.mdc-fab.chips-dark {
+  background: $mdc-theme-primary-dark;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+.mdc-fab.chips-outline {
+  background: none;
+  color: $mdc-theme-primary-grey;
+  border-radius: 10px;
+  border: 1px solid $mdc-theme-primary-grey;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+
+
+.mdc-fab__label.chip-label {
+  text-transform: none;
+  text-size: 16px;
+}
+
+
+.mdc-data-table.list-view {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 300;
+  font-size: 21px;
+  color: $mdc-theme-primary-dark;
+  text-align: right;
+  align-items: stretch;
+}
+
+.mdc-data-table__header-cell.list-view {
+  text-align: center;
+  font-weight: 300;
+}
+.mdc-data-table.list-view:hover {
+  background: $mdc-theme-primary;
+}
+
+#active-tab {
+
+}
+.mdc-tab--active.mdc-tab__text-label
+ { 
+   color: var(--mdc-theme-primary, #283541); 
+}
+.mdc-tab--active .mdc-tab__text-label
+ { 
+   color: var(--mdc-theme-primary, #283541); 
+   text-transform: none;
+}
+
+
+
+
+.mdc-tab-indicator__content--underline.tab-active {
+    border-color: $mdc-theme-primary-dark;
+
+}
+
+.mdc-menu--label.dropdown-title{
+  color: $mdc-theme-primary-grey;
+  vertical-align: top;
+}
+
+.mdc-list-item:hover {
+  background: $mdc-theme-primary;
+  color: $mdc-theme-primary-dark;
+}
+
+.mdc-list-item__text.list-dropdown {
+  color: $mdc-theme-primary-grey;
+}
+
+ .mdc-button.btn-blue {
+   background-color: $mdc-theme-primary-blue;
+         padding: 0 16px 0 16px;
+
+     }
+
+
+ .mdc-button.btn-grey {
+   background-color: $mdc-theme-primary-grey;
+         padding: 0 16px 0 16px;
+
+     }
+
+.mdc-button.btn-dark {
+     background-color: $mdc-theme-primary-dark;
+        padding: 0 16px 0 16px;
+
+
+ }
+.mdc-button.btn-secondary-blue{
+     background-color: transparent;
+    border: 2px solid $mdc-theme-primary-blue;
+        padding: 0 16px 0 16px;
+
+  color: $mdc-theme-primary-blue;
+}
+
+.mdc-button.btn-secondary-grey{
+     background-color: transparent;
+    border: 2px solid $mdc-theme-primary-grey;
+        padding: 0 16px 0 16px;
+
+  color: $mdc-theme-primary-grey;
+}
+
+.mdc-button.btn-blank{
+     background-color: transparent;
+  color: $mdc-theme-primary-dark;
+        padding: 0 16px 0 16px;
+
+}
+
+.mdc-top-app-bar__title.top-bar-wide {
+  color: $mdc-theme-primary-grey;
+  font-weight: 300;
+    border-style: solid;
+  border-color: $mdc-theme-primary-grey;
+  border-width: 0px 1px 0px 0px;
+  font-size: 18px;
+  position: relative;
+  width: auto;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+.mdc-top-app-bar.top-bar-wide {
+    background: #ffffff;
+  border-radius: 10px;
+text-align: center;
+  align-items: center;
+
+
+}
+
+
+.typo {
+    background: #fff;
+    Padding: 8% 12%;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.typo-sizing {
+    display: flex;
+}
+
+.typo-sizing span {
+    display: flex;
+    align-self: stretch;
+    width: 100%;
+    clear: both;
+    
+}
+
+// Checkbox and radio
+
+.mdc-checkbox, .mdc-radio {
+  margin-right: 4px;
+}
+
+// Switch
+
+.mdc-switch {
+  @include mdc-rtl-reflexive-box(margin, right, 20px);
+}
+
+// Top app bar
+
+.component-wrapper .mdc-top-app-bar {
+  @include mdc-elevation(4);
+  position: relative;
+  z-index: 1;
+
+  &:not(.mdc-top-app-bar--short) {
+    width: 100%;
+  }
+}
+
+// Card
+
+.mdc-card {
+  width: 100%;
+  color: $mdc-theme-on-surface;
+
+  .demo-card__primary {
+    padding: 1rem;
+  }
+
+  .demo-card__title,
+  .demo-card__subtitle {
+    margin: 0;
+  }
+
+  .demo-card__secondary {
+    padding: 0 1rem 8px;
+    opacity: 0.87;
+  }
+}
+
+// Linear progress
+
+.mdc-linear-progress {
+  width: 100%;
+}
+
+// Menu
+
+.mdc-menu-surface--anchor > .mdc-menu {
+  position: relative;
+  z-index: 1;
+}
+
+.component-section.menu-section {
+ 
+}
+
+// Select
+
+.mdc-select {
+  width: 160px;
+}
+
+// Drawer
+
+.drawer-component-wrapper {
+  background: rgba(0, 0, 0, 0.3);
+
+  .mdc-drawer {
+    @include mdc-elevation(16);
+
+    .mdc-drawer__content {
+      padding: 0;
+    }
+  }
+}
+
+// Text field
+
+.mdc-text-field {
+  width: 100%;
+}
+
+// Tabs
+.component-wrapper .mdc-tab-bar {
+  background: $mdc-theme-primary;
+
+  .mdc-tab {
+    @include mdc-tab-text-label-color($mdc-theme-on-primary);
+
+    .mdc-tab__ripple {
+      @include mdc-states($mdc-theme-on-primary);
+    }
+  }
+
+  .mdc-tab-indicator {
+    @include mdc-tab-indicator-underline-color($mdc-theme-on-primary);
+  }
+}
+
+// Snackbar
+
+.mdc-snackbar {
+  position: relative;
+  margin: 0;
+  justify-content: start;
+  z-index: 1;
+}
+
+// Dialog
+
+.mdc-dialog {
+  position: relative;
+  justify-content: start;
+  z-index: 1;
+
+  .mdc-dialog__surface {
+    max-width: 100%;
+  }
+}
+
+// List
+
+.component-wrapper > .mdc-list {
+  border: 1px solid rgba(0,0,0,.1);
+  background: $mdc-theme-background;
+
+  .mdc-list-item__graphic {
+    background-color: if(mdc-theme-contrast-tone($mdc-theme-background) == "dark",
+      rgba(0, 0, 0, 0.12),
+      rgba(255, 255, 255, 0.12));
+    color: if(mdc-theme-contrast-tone($mdc-theme-background) == "dark",
+      rgba(0, 0, 0, 0.68),
+      rgba(255, 255, 255, 0.68));
+  }
+}
+
+// Image list
+
+.mdc-image-list {
+  @include mdc-image-list-masonry-columns(2);
+
+  max-width: 400px;
+  max-height: 600px;
+  margin: 0;
+}
+
+.component-wrapper {
+  &.button-component-wrapper, &.fab-component-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  // Offset built-in padding to left-align all components
+
+  &.chips-component-wrapper {
+    @include mdc-rtl-reflexive-box(margin, left, -8px);
+  }
+
+  &.checkbox-component-wrapper, &.radio-component-wrapper {
+    @include mdc-rtl-reflexive-box(margin, left, -10px);
+  }
+
+  &.icon-button-component-wrapper {
+    @include mdc-rtl-reflexive-box(margin, left, -12px);
+  }
+}
