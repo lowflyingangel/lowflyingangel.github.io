@@ -5,11 +5,12 @@
 
   "description": "Built with Material Starter Kit, a file template to get you up and running with Material Components for the Web.",
   "scripts": {
-    "//": "If you are building your app locally, in the following line remove everything after webpack-dev-server",
-    "start": "webpack-dev-server --host 0.0.0.0 --disable-host-check --public $PROJECT_DOMAIN.glitch.me",
-    "dll": "webpack --config webpack.dll.config.js",
-    "predeploy": "npm run build",
-   "deploy": "gh-pages -d build"
+      "predeploy": "npm run build",
+   "deploy": "gh-pages -b master -d build",
+      "start": "webpack-dev-server",
+        "build": "react-scripts build",
+      "dll": "webpack --config webpack.dll.config.js
+
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
